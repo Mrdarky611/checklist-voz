@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Vino el enfermero?",
+        "tipo": "si_no"
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Revisaste todas las cámaras?",
+        "tipo": "si_no"
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Funcionan todos los radios?",
+        "tipo": "si_no"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Quién brindó soporte?",
+        "tipo": "lista",
+        "opciones": [
+            "Dirección",
+            "Prevención",
+            "Mantenimiento"
+        ]
+    }
+]
