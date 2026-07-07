@@ -55,22 +55,14 @@ button{
 
 </div>
 
-<script>
+<button onclick="hablar()">
+🎤 Iniciar
+</button>
 
-function hablar(){
+<button onclick="siguiente()">
+➡️ Siguiente
+</button>
 
-const texto=new SpeechSynthesisUtterance(
-document.getElementById("pregunta").innerText
-);
-
-texto.lang="es-MX";
-
-speechSynthesis.speak(texto);
-
-}
-
-</script>
+<script src="script.js"></script>
 
 </body>
-
-</html>
